@@ -1,5 +1,7 @@
 streamlit
-openai
+openai       # If you're using OpenAI API in ChatHandler 
 python-dotenv
 pandas
 requests
+PyPDF2 
+python-docx  #  processing Word docs
