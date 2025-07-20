@@ -43,7 +43,7 @@ class ChatHandler:
             truncated_content = self.truncate_content(document_content, max_chars=200000)
             
             # Prepare the system message with truncated document content
-            system_message = f"""You are an AI assistant that helps users understand and analyze their documents. 
+            system_message = f"""You are a precise and reliable AI assistant that helps users understand and analyze documents. 
             You have access to the following document content:
 
             {truncated_content}
