@@ -12,12 +12,12 @@ def get_processors():
 
 def main():
     st.set_page_config(
-        page_title="AI Document Chatbot",
+        page_title="PLM Smart Self Service",
         page_icon="🤖",
         layout="wide"
     )
     
-    st.title("🤖 AI Document Chatbot")
+    st.title(" PLM Smart Self Service")
     st.markdown("Upload your documents (Word, PDF, Excel) and ask questions about their content!")
     
     # Initialize session state
